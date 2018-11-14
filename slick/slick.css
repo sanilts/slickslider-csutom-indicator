@@ -117,3 +117,16 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-dots li{
+    margin: 0 !important;
+}
+
+
+.slick-dots li button:before{
+    content: url("img/slider-arrow.png") !important;
+    vertical-align: -50% !important;
+}
+.slick-dots li:nth-child(even) button:before{
+    content: url("img/slider-arrow.png") !important;
+    transform: rotate(180deg);
+}
